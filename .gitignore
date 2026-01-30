@@ -1,1 +1,15 @@
+# Node.js dependencies
+node_modules/
 
+# Logs
+logs/
+
+# Environment variables (jos käytössä)
+.env
+
+# OS:n väliaikaiset tiedostot
+.DS_Store
+Thumbs.db
+
+# Editorin väliaikaiset tiedostot (VS Code)
+.vscode/

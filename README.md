@@ -1,4 +1,5 @@
 # Logging Project Version: 1.0.0
+Versioning follows semantic versioning (semver.org).
 
 # Node.js Logging and Tally Counter Project
 
@@ -14,3 +15,4 @@ The application is compatible with Node.js 18 as required.
 
 
 ### Project Structure
+

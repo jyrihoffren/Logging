@@ -1,3 +1,5 @@
+# Logging Project Version: 1.0.0
+
 # Node.js Logging and Tally Counter Project
 
 This project contains two tasks:
@@ -9,5 +11,6 @@ This project contains two tasks:
 Developed and tested with Node.js v24.
 The application is compatible with Node.js 18 as required.
 ## Task 1 - Logging Library
+
 
 ### Project Structure

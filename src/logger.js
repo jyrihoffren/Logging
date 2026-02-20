@@ -1,3 +1,7 @@
+// Tämä moduuli luo Winston-pohjaisen loggerin, joka kirjaa sovelluksen tapahtumat
+// sekä konsoliin että tiedostoihin. Loggeri käyttää JSON-muotoista lokitusta ja 
+// lisää aikaleiman jokaiseen merkintään. Virheet tallennetaan erilliseen 
+// error.log -tiedostoon ja kaikki lokit combined.log -tiedostoon.
 
 const { createLogger, transports, format } = require('winston');
 
@@ -13,6 +17,7 @@ const logger = createLogger({
     new transports.File({ filename: 'logs/combined.log' })
   ]
 });
+
 
 
 module.exports = logger;

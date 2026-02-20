@@ -3,7 +3,7 @@ const { expect } = require('chai');
 
 // Importtaa serveri (main.js) tai erillinen app-express
 // HUOM: main.js täytyy exporttaa app, esim. module.exports = app;
-// Jos et vielä tehnyt, muokkaa main.js näin:
+// Tarkista, että main.js näin:
 
 // const express = require('express');
 // const app = express();
@@ -46,4 +46,5 @@ describe('Tally Counter REST API', () => {
     expect(res.status).to.equal(200);
     expect(Number(res.text)).to.equal(counterValue);
   });
+
 });
